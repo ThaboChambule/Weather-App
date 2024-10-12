@@ -22,9 +22,5 @@ fetch(apiUrl)
       response.currentConditions.windspeed + " km/h";
   });
 
-
 }
-
 )
-
-
