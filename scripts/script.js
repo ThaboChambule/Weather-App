@@ -1,10 +1,14 @@
-const weatherData = document.querySelector(".content");
-fetch('https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/retrievebulkdataset?&key=5BSKWDZYG3QG7X5CSQZSZFVE4&taskId=825af98195a54c42781aa074100d759a&zip=false')
+
+const apiUrl = "https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/Bloemfontein?unitGroup=metric&key=5BSKWDZYG3QG7X5CSQZSZFVE4&contentType=json"
+
+fetch(apiUrl)
 .then(function(response){
     return response.json();
 })
-.then(function(data){
-    weatherData.innerHTML = JSON.stringify(data,null,2)
+.then(function(response){
+    console.log(response)
+    document.querySelector(".city").innerHTML = response.address;
 
 
 })
+   

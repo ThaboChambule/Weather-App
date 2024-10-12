@@ -1,16 +1,19 @@
+
 h1{
     text-align: center;
 }
 
-main{
+main {
     background-image: url("../images/backgroundimage.jpg");
-    background-color:#47c4f1;
-    padding: 50px;
-    
+    background-color: #47c4f1;
+   
 }
-.card{
+
+.card {
+    display: flex;
     justify-content: center;
 }
+
 .search{
     display: flex;
     justify-content: center; 
@@ -25,3 +28,12 @@ input{
    display: grid;
    place-items: center;
 }
+.details {
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Creates two equal columns */
+    gap: 20px; /* Adjust the gap between columns as needed */
+    align-items: center;
+    text-align: center;
+}
+
