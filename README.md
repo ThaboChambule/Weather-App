@@ -20,6 +20,6 @@ Technologies Used
 HTML: For structuring the web page.
 CSS: For styling the application.
 JavaScript: For fetching data from the API and updating the UI dynamically.
-API: Utilizes a public weather API (e.g., OpenWeatherMap) to fetch weather data.
+API: Utilizes a public weather API (OpenWeatherMap) to fetch weather data.
 Contributing
 Feel free to fork this repository and contribute by submitting pull requests. Any improvements or bug fixes are welcome!
